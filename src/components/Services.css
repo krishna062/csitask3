@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.services-container{
+    /* background: #bbd1c6; */
+    padding-left: 30px ;
+    padding-right:30px ;
+}
+.wrapper{
+    width: 100%;
+    height: 30vh;
+     text-align: center;
+     color: white;
+     padding: 50px;
+     /* background-color:#bbd1c6 ; */
+     background-color:#6ea087 ;
+     line-height: 1.5;
+     font-size: 1.5rem;
+}
+.service-cards{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin-top: 50px;
+}
