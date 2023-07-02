@@ -34,8 +34,8 @@ const Navbar = () => {
 
         <div className="btns">
             <ul>
-                <li><a href="#" className='login'>Log In </a></li>
-                <li><a href="#"className='signup'>Sign Up</a></li>
+                <li><a href="/" className='login'>Log In </a></li>
+                <li><a href="/"className='signup'>Sign Up</a></li>
             </ul>
            
         </div>

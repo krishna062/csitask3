@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import "./Starting.css"
 import Navbar from './Navbar'
 import {ServiceCard} from './ServiceCard'
@@ -21,7 +21,7 @@ const Starting = () => {
     
     <div className='Starter-block'>
         <h2>Reach your Saving Goals.</h2>
-        <a href='#'>Create your Budget</a>
+        <a href='/'>Create your Budget</a>
     </div>
 
    
