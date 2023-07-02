@@ -1,15 +1,26 @@
 import React from 'react';
-// import Home from './components/Home';
+// import { Switch,Route} from 'react-router-dom';
+import {  Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
 import Services from './components/Services';
+import Starting from './components/Starting';
+import Pricing from './components/Pricing';
 import './App.css';
+
+
 
 
 function App() {
   return (
-    <div className="App">
-      {/* <Home/> */}
-      <Services/>
-    </div>
+  //  <BrowserRouter>
+    <Routes>
+      <Route exact path="/" element={<Home/>}/>
+      <Route  path="/Whatyouget" element={<Services/>}/>
+      <Route  path="/GetStarted" element={<Starting/>}/>
+      <Route  path="/Pricing" element={<Pricing/>}/>
+    </Routes>
+    // </BrowserRouter> 
+    
   );
 }
 

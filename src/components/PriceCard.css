@@ -1,0 +1,42 @@
+.price-block{
+    /* width: 100%; */
+    width: 20rem;
+    height: 100%;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#d0e5db;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.text-block{
+    color: green;
+    text-align: center;
+}
+
+.type{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.text-block p{
+    font-size: 1.5rem;
+    
+}
+.text-block span{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.price{
+    font-size: 5rem;
+    font-weight: 600;
+    
+}
+.features{
+    height: fit-content;
+    line-height: 2;
+}
